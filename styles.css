@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(224, 224, 224);
+    color:rgb(41, 41, 41);
+    font-size: 16px;
+    margin: 6em;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+.infotext{
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.bg-yel{
+    background: rgb(225, 222, 255);
+}
+
+.bg-gr{
+    background: rgb(208, 253, 208);
+}
+
+.bg-gray{
+    background: rgb(255, 254, 207);
+}
+
+.bg-blum{
+    background: rgb(247, 201, 201);
+}
+
+.card{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 20px;
+}
+
+.list li{
+    color: rgb(0, 0, 0);
+}
+
+.table1{
+    width: 100%;
+}
+
+.table1 td{
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.table1 td:nth-child(2), .table1 td:nth-child(3){
+    color: rgb(0, 0, 0);
+}
+
+.contact{
+    text-align: center;
+}
+
+.formgroup{
+    display: flex;
+}
+
+.em{
+    margin-left: 60px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color:black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.btn{
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none; 
+}
+
